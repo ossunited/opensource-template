@@ -13,7 +13,7 @@ permissions: read-all
 
 jobs:
   analysis:
-    name: Scorecard analysis
+    name: OpenSSF Scorecard Analysis
     runs-on: ubuntu-latest
     permissions:
       # Needed for Code scanning upload
