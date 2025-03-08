@@ -1,5 +1,5 @@
 ---
-name: OpenSSF Scorecard analysis
+name: OpenSSF Scorecard Analysis
 on:
   workflow_dispatch:
   push:
