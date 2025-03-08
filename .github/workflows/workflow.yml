@@ -1,5 +1,5 @@
 ---
-name: Open Source Project Template Workflow
+name: FOSS Template Workflow
 
 on: # yamllint disable-line rule:truthy
   push:
