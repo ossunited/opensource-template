@@ -1,0 +1,27 @@
+---
+policies:
+  - type: commit
+    spec:
+      dco: true
+      gpg:
+        required: true
+      header:
+        length: 90
+        imperative: true
+        case: lower
+        invalidLastCharacters: .
+      body:
+        required: false
+      conventional:
+        types:
+          [
+            "chore",
+            "ci",
+            "docs",
+            "perf",
+            "refactor",
+            "style",
+            "test",
+            "release",
+          ]
+        scopes: [".*"]
