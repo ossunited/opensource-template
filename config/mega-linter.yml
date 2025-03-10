@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 ---
 # Configuration file for MegaLinter.
 # See configuration options at https://oxsecurity.github.io/megalinter/configuration/ and more in each linter documentation.

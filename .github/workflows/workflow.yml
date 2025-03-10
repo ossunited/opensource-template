@@ -1,5 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 ---
-name: Open Source Project Template Workflow
+name: FOSS Template Workflow
 
 on: # yamllint disable-line rule:truthy
   push:

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 ---
 name: Lint Public Code MetaData
 on: [workflow_call] # yamllint disable-line rule:truthy
