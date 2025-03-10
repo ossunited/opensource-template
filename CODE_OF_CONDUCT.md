@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
 
 # Contributor Covenant Code of Conduct
 

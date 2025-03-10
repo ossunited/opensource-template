@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 # Contributing
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
