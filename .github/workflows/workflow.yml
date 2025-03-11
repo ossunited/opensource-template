@@ -3,10 +3,12 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 ---
-name: FOSS Template Workflow
+name: Freedom FOSS Template Workflow
 
 on: # yamllint disable-line rule:truthy
   push:
+    branches:
+      - main
     tags:
       - v[0-9]+.[0-9]+.[0-9]+
   pull_request:
