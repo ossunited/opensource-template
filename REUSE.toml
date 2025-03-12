@@ -9,7 +9,7 @@ version = 1
 path = [".github/pull_request_template.md",".markdownlint.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2025 Freedom FOSS Foundation <https://freedomfoss.org>"
-SPDX-License-Identifier = "GPL-3.0-only"
+SPDX-License-Identifier = "GPL-3.0-only" 
 
 # images etc
 [[annotations]]
