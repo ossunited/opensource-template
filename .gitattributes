@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
