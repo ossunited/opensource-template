@@ -81,7 +81,7 @@ We use the [Fork-and-Pull Model](https://docs.github.com/en/pull-requests/collab
 4. Commit your changes (`git commit -s -m 'feat: Add some feature'`).
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Open a pull request.
-   
+
 ## Commit Guidelines
 
 ### DCO - Signoff and Signing a Commit

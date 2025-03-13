@@ -13,19 +13,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 ### Added
+
 - Initial release of the project.
 - Basic functionality for managing servers using Docker.
 - Integration with Clarity analytics.
 
 ### Changed
+
 - Updated dependencies to the latest versions.
 
 ### Fixed
+
 - Removed theme from localStorage on page load.
 
 ## [0.0.1] - 2023-10-01
 
 ### Added
+
 - Initial setup with Docusaurus.
 - Basic page layout and components.
 - Tailwind CSS integration.
