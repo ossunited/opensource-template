@@ -58,11 +58,11 @@ The project uses the following communication channels:
 
 ## License
 
-The project is licensed under the [Apache License 2.0](./LICENSE). All contributions to the project must be made under this license.
+The project is licensed under the [GPL-3.0-only](./LICENSE). All contributions to the project must be made under this license.
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details
+This project is licensed under the GPL-3.0-only - see the [LICENSE](./LICENSE) file for details
 
-Most assets released are under Apache License 2.0 except for
+Most assets released are under GPL-3.0-only except for
 
 CODE_OF_CONDUCT.md template:
 
@@ -70,4 +70,4 @@ Copyright: [Contributor Covenant](https://www.contributor-covenant.org/) License
 
 ## Amendments
 
-This governance document can be amended by the Core Team. Proposed changes to the governance structure should be discussed and approved by the Core Team.
+This governance document can be amended by Core Team. Proposed changes to the governance structure should be discussed and approved by the Freedom FOSS Foundation.
