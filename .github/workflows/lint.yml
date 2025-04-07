@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Harden GitHub runner
-        uses: step-security/harden-runner@4d991eb9b905ef189e4c376166672c3f2f230481 #v2.11.0
+        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf #v2.11.1
         with:
           egress-policy: audit
 
@@ -35,10 +35,10 @@ jobs:
 
       - name: Run MegaLinter
         id: ml
-        uses: oxsecurity/megalinter@ec124f7998718d79379a3c5b39f5359952baf21d # v8.4.2
+        uses: oxsecurity/megalinter@146333030da68e2e58c6ff826633824fabe01eaf # v8.5.0
 
       - name: Archive production artifacts
-        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 #v4.6.1
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 #v4.6.2
         with:
           name: MegaLinter reports
           path: |
