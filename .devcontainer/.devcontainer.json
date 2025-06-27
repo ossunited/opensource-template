@@ -1,0 +1,37 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "name": "opensource",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "username": "vscode",
+      "userUid": 1000,
+      "userGid": 1000,
+      "installOhMyZsh": false,
+      "upgradePackages": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": false
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2.12.0": {}
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "sudo chmod 666 /var/run/docker.sock",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vmware.vscode-boot-dev-pack",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "asciidoctor.asciidoctor-vscode",
+        "docker.docker",
+        "github.vscode-github-actions",
+        "ms-azuretools.vscode-containers",
+        "DavidAnson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "PKief.material-icon-theme"
+      ]
+    }
+  }
+}
