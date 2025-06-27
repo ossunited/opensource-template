@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+# SPDX-FileCopyrightText: © 2025 Broadsage
 #
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 
 # Code Quality Check Script
 # Uses mega-linter, reuse-tool and conform to check various linting, licenses, and commit compliance.

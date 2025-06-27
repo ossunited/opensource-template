@@ -1,6 +1,6 @@
-# SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+# SPDX-FileCopyrightText: © 2025 Broadsage
 #
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 
 publiccodeYmlVersion: "0.4"
 categories:
@@ -20,7 +20,7 @@ description:
 
       **You **_**are supposed**_** to adjust the contents and suggestions to
       suit your project needs.          **
-    shortDescription: "https://github.com/fossuniverse/foss-template"
+    shortDescription: "https://github.com/ossunited/opensource-template"
 developmentStatus: development
 legal:
   license: Apache-2.0
@@ -30,13 +30,13 @@ localisation:
   localisationReady: true
 maintenance:
   contacts:
-    - name: foundation@fossuniverse.org
+    - name: opensource@broadsage.com
   type: internal
 name: open source project template
 platforms:
   - web
-releaseDate: "2023-10-16"
+releaseDate: "2025-06-27"
 softwareType: standalone/other
 softwareVersion: dev
-url: "https://github.com/fossuniverse/foss-template.git"
-roadmap: "https://github.com/fossuniverse/foss-template#roadmap"
+url: "https://github.com/ossunited/opensource-template.git"
+roadmap: "https://github.com/ossunited/opensource-template#roadmap"

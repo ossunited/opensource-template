@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: © 2025 Broadsage
+
+// SPDX-License-Identifier: Apache-2.0
+
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "name": "opensource",

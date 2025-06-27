@@ -1,7 +1,7 @@
 <!--
-SPDX-FileCopyrightText: 2025 OSS United <https://ossunited.org>
+SPDX-FileCopyrightText: © 2025 Broadsage
 
-SPDX-License-Identifier: GPL-3.0-only
+SPDX-License-Identifier: Apache-2.0
 -->
 
 # oss-template

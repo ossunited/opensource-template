@@ -1,7 +1,7 @@
 <!--
-SPDX-FileCopyrightText: 2025 Freedom FOSS Foundation <https://freedomfoss.org>
+SPDX-FileCopyrightText: © 2025 Broadsage
 
-SPDX-License-Identifier: GPL-3.0-only
+SPDX-License-Identifier: Apache-2.0
 -->
 
 # Governance
