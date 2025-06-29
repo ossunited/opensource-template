@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# SPDX-FileCopyrightText: © 2025 Broadsage
+# SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage
 #
 # SPDX-License-Identifier: Apache-2.0
 
