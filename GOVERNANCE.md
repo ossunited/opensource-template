@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ## Overview
 
-This document outlines the governance structure and processes for the FOSS Universe projects.
+This document outlines the governance structure and processes for the OSS United projects.
 
 ## Roles and Responsibilities
 
@@ -25,9 +25,9 @@ Maintainers are responsible for the overall health and direction of the project.
 - Ensure the project adheres to its goals and guidelines
 - Participate in discussions and decision-making processes
 
-### Core Team
+### Community Force
 
-The Core Team consists of senior maintainers who have demonstrated a long-term commitment to the project. They are responsible for setting the strategic direction of the project and making high-level decisions. The Core Team has the authority to:
+The Community Force consists of senior maintainers who have demonstrated a long-term commitment to the project. They are responsible for setting the strategic direction of the project and making high-level decisions. The Core Team has the authority to:
 
 - Approve new maintainers
 - Make decisions on project direction and scope
@@ -58,11 +58,13 @@ The project uses the following communication channels:
 
 ## License
 
-The project is licensed under the [GPL-3.0-only](./LICENSE). All contributions to the project must be made under this license.
+Copyright (c) Broadsage Corporation. All rights reserved.
 
-This project is licensed under the GPL-3.0-only - see the [LICENSE](./LICENSE) file for details
+The project is licensed under the [Apache-2.0](./LICENSE). All contributions to the project must be made under this license.
 
-Most assets released are under GPL-3.0-only except for
+This project is licensed under the Apache-2.0 - see the [LICENSE](./LICENSE) file for details
+
+Most assets released are under Apache-2.0 except for
 
 CODE_OF_CONDUCT.md template:
 
@@ -70,4 +72,4 @@ Copyright: [Contributor Covenant](https://www.contributor-covenant.org/) License
 
 ## Amendments
 
-This governance document can be amended by Core Team. Proposed changes to the governance structure should be discussed and approved by the Freedom FOSS Foundation.
+This governance document can be amended by `Community Force`. Proposed changes to the governance structure should be discussed and approved by the `Broadsage`.

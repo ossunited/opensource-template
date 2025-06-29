@@ -4,11 +4,11 @@ SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage
 SPDX-License-Identifier: Apache-2.0
 -->
 
-# Security Policy for Freedom FOSS Foundation
+# Security Policy for OSS United
 
 ## Overview
 
-At the Freedom FOSS Foundation, we are committed to ensuring the security and integrity of our open-source projects. We value the contributions of security researchers and the broader community in helping us identify and address vulnerabilities in our software. This document outlines our process for reporting security issues, how we handle disclosures, and our commitment to maintaining secure software for all users.
+At the OSS United, we are committed to ensuring the security and integrity of our open-source projects. We value the contributions of security researchers and the broader community in helping us identify and address vulnerabilities in our software. This document outlines our process for reporting security issues, how we handle disclosures, and our commitment to maintaining secure software for all users.
 
 ## Supported Versions
 
@@ -16,11 +16,11 @@ We provide security updates for the following versions of our projects:
 
 | Project Name       | Version        | Supported Until       |
 |--------------------|----------------|-----------------------|
-| FreedomCore        | 2.x            | Ongoing               |
-| FreedomCore        | 1.x            | End of Life: 2025-12-31 |
-| LibertyAPI         | 3.x            | Ongoing               |
-| LibertyAPI         | 2.x            | End of Life: 2024-06-30 |
-| OpenFreedom Suite  | Latest Release | Ongoing               |
+| Core        | 2.x            | Ongoing               |
+| OpenCore        | 1.x            | End of Life: 2025-12-31 |
+| OpenAPI         | 3.x            | Ongoing               |
+| OpenAPI         | 2.x            | End of Life: 2024-06-30 |
+| OpenSuite  | Latest Release | Ongoing               |
 
 Please ensure you are using a supported version to receive security updates. We recommend upgrading to the latest stable release as soon as possible.
 
@@ -29,7 +29,7 @@ Please ensure you are using a supported version to receive security updates. We 
 If you discover a security vulnerability in any Freedom FOSS Foundation projects, we encourage you to report it to us responsibly. Here’s how:
 
 1. **Contact Us Privately**:
-   Please email security vulnerabilities to [security@freedomfoss.org](mailto:security@freedomfoss.org). Do not disclose the issue publicly (e.g., on GitHub issues, forums, or social media) until we have had a chance to address it.
+   Please email security vulnerabilities to [security@broadsage.com](mailto:security@broadsage.com). Do not disclose the issue publicly (e.g., on GitHub issues, forums, or social media) until we have had a chance to address it.
 
 2. **What to Include**:
    Provide a detailed description of the vulnerability, including:
@@ -53,7 +53,7 @@ If you discover a security vulnerability in any Freedom FOSS Foundation projects
 
 ## Disclosure Policy
 
-The Freedom FOSS Foundation follows a **90-day coordinated disclosure policy**:
+The OSS United follows a **90-day coordinated disclosure policy**:
 
 - We aim to resolve critical vulnerabilities within 90 days of a report.
 - If more time is needed, we will communicate transparently with the reporter and provide updates on our progress.
@@ -71,12 +71,12 @@ We encourage users and contributors to follow these best practices to enhance se
 
 ## Bug Bounty Program
 
-The Freedom FOSS Foundation currently does not operate a formal bug bounty program. However, we deeply appreciate the efforts of security researchers and may offer recognition, swag, or other forms of gratitude for responsible disclosures at our discretion.
+The OSS United currently does not operate a formal bug bounty program. However, we deeply appreciate the efforts of security researchers and may offer recognition, swag, or other forms of gratitude for responsible disclosures at our discretion.
 
 ## Contact Information
 
 For all security-related concerns, please contact us at:
-📧 [security@freedomfoss.org](mailto:security@freedomfoss.org)
+📧 [security@broadsage.com](mailto:security@broadsage.com)
 
 For general inquiries or non-security issues, please use our main contact channels listed on our website.
 
@@ -84,4 +84,4 @@ For general inquiries or non-security issues, please use our main contact channe
 
 We would like to thank the researchers and contributors who have helped improve the security of our projects.
 
-Thank you for helping us keep the Freedom FOSS Foundation’s projects secure!
+Thank you for helping us keep the OSS United projects secure!
