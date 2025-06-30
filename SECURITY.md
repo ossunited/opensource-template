@@ -26,7 +26,7 @@ Please ensure you are using a supported version to receive security updates. We 
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in any Freedom FOSS Foundation projects, we encourage you to report it to us responsibly. Here’s how:
+If you discover a security vulnerability in any OSS United projects, we encourage you to report it to us responsibly. Here’s how:
 
 1. **Contact Us Privately**:
    Please email security vulnerabilities to [security@broadsage.com](mailto:security@broadsage.com). Do not disclose the issue publicly (e.g., on GitHub issues, forums, or social media) until we have had a chance to address it.
