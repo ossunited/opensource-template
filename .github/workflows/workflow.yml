@@ -30,7 +30,7 @@ jobs:
   lint:
     permissions:
       contents: read
-      security-events: read-all
+      security-events: write
     uses: ./.github/workflows/lint.yml
   lintpubliccode:
     permissions:
