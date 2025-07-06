@@ -10,7 +10,7 @@
       "version": "latest",
       "ppa": false
     },
-    "ghcr.io/ossunited/devcontainer-features/sigstore-gitsign:1.0.0": {},
+    "ghcr.io/ossunited/devcontainer-features/sigstore-gitsign:1.0.1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2.12.0": {}
   },
   "remoteUser": "vscode",
