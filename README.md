@@ -11,6 +11,7 @@ SPDX-License-Identifier: Apache-2.0
 </p>
 
 ---
+![Official](https://img.shields.io/badge/project-official-green.svg?colorA=303033&colorB=ff8a2c&label=Broadsage&style=for-the-badge)
 <a href="https://github.com/broadsage"><img src="https://img.shields.io/badge/github-explore_projects-36c7d0?style=for-the-badge" /></a>
 <a href="mailto:contact@broadsage.com"><img src="https://img.shields.io/badge/contact-enterprise_inquiry-ff8a2c?style=for-the-badge" /></a>
 
