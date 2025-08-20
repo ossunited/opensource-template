@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 ---
-name: Opensource Workflow
+name: Governance Workflow
 
 on: # yamllint disable-line rule:truthy
   push:
