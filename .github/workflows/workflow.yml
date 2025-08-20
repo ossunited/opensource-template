@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage
+# SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage <opensource@broadsage.com>
 #
 # SPDX-License-Identifier: Apache-2.0
 
 ---
-name: Opensource Workflow
+name: Governance Workflow
 
 on: # yamllint disable-line rule:truthy
   push:
