@@ -1,3 +1,4 @@
+
 <!--
 SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage <opensource@broadsage.com>
 
@@ -12,10 +13,11 @@ SPDX-License-Identifier: Apache-2.0
 
 This repository provides a solid foundation for launching, scaling, and governing open-source projects. It includes best practices, essential files, and guidelines to ensure compliance, security, and operational excellence for projects of any size.
 
-![Official Broadsage Project](https://img.shields.io/badge/project-official-green.svg?colorA=303033&colorB=ff8a2c&label=Broadsage&style=for-the-badge)
-![Explore Broadsage Projects](https://img.shields.io/badge/github-explore_projects-36c7d0?style=for-the-badge)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/broadsage/opensource-template?label=OpenSSF%20Scorecard&style=for-the-badge)](https://securityscorecards.dev/viewer/?uri=github.com/broadsage/opensource-template)
-[![Contact Broadsage](https://img.shields.io/badge/contact-community_support-ff8a2c?style=for-the-badge)](mailto:opensource@broadsage.com)
+[![Build Status](https://github.com/broadsage/opensource-template/actions/workflows/workflow.yml/badge.svg)](https://github.com/broadsage/opensource-template/actions/workflows/workflow.yml)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/broadsage/opensource-template?label=OpenSSF%20Scorecard&style=flat&logo=ossf)](https://securityscorecards.dev/viewer/?uri=github.com/broadsage/opensource-template)
+[![Contact Broadsage](https://img.shields.io/badge/contact-Discussions-ff8a2c?label=GitHub&style=flat&logo=github)](https://github.com/broadsage/opensource-template/discussions)
+[![Broadsage on LinkedIn](https://img.shields.io/badge/LinkedIn-Broadsage-blue?style=flat&logo=linkedin)](https://www.linkedin.com/company/broadsage)
 
 ## ✨ Key Features
 
