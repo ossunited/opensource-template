@@ -14,6 +14,7 @@ This repository provides a solid foundation for launching, scaling, and governin
 
 ![Official Broadsage Project](https://img.shields.io/badge/project-official-green.svg?colorA=303033&colorB=ff8a2c&label=Broadsage&style=for-the-badge)
 ![Explore Broadsage Projects](https://img.shields.io/badge/github-explore_projects-36c7d0?style=for-the-badge)
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/broadsage/opensource-template?label=OpenSSF%20Scorecard&style=for-the-badge)](https://securityscorecards.dev/viewer/?uri=github.com/broadsage/opensource-template)
 [![Contact Broadsage](https://img.shields.io/badge/contact-community_support-ff8a2c?style=for-the-badge)](mailto:opensource@broadsage.com)
 
 ## ✨ Key Features
@@ -68,7 +69,6 @@ Organize your project as follows for maximum clarity and maintainability:
 
 ## 🤝 Community & Contribution
 
-
 We believe in global collaboration and innovation. All contributions are welcome! Here’s how you can get involved:
 
 ### How to Contribute
@@ -90,7 +90,6 @@ We welcome all types of contributions—code, documentation, design, tests, tran
 - **Community Badges:** Earn badges for your contributions and community support.
 
 ## 💬 Community Support
-
 
 We believe in building together! Here’s how you can connect and get support:
 
