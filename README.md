@@ -67,7 +67,7 @@ Organize your project as follows for maximum clarity and maintainability:
 ## 🛡️ Compliance & Security
 
 - **REUSE Compliance:** All files are REUSE-compliant for license clarity.
-- **Security Policy:** See `SECURITY.md` for vulnerability reporting and response process.
+- **Security Policy:** See [SECURITY.md](SECURITY.md) for vulnerability reporting and response process.
 - **Automated Linting:** Code quality and security checks via MegaLinter and CI/CD.
 
 ## 🤝 Community & Contribution

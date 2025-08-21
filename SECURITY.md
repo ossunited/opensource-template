@@ -4,11 +4,11 @@ SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage <opensource@broadsage.com>
 SPDX-License-Identifier: Apache-2.0
 -->
 
-# Security Policy for OSS United
+# Security Policy for Broadsage
 
 ## Overview
 
-At the OSS United, we are committed to ensuring the security and integrity of our open-source projects. We value the contributions of security researchers and the broader community in helping us identify and address vulnerabilities in our software. This document outlines our process for reporting security issues, how we handle disclosures, and our commitment to maintaining secure software for all users.
+At the Broadsage, we are committed to ensuring the security and integrity of our open-source projects. We value the contributions of security researchers and the broader community in helping us identify and address vulnerabilities in our software. This document outlines our process for reporting security issues, how we handle disclosures, and our commitment to maintaining secure software for all users.
 
 ## Supported Versions
 
@@ -26,7 +26,7 @@ Please ensure you are using a supported version to receive security updates. We 
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in any OSS United projects, we encourage you to report it to us responsibly. Here’s how:
+If you discover a security vulnerability in any of our Opensource projects, we encourage you to report it to us responsibly. Here’s how:
 
 1. **Contact Us Privately**:
    Please email security vulnerabilities to [security@broadsage.com](mailto:security@broadsage.com). Do not disclose the issue publicly (e.g., on GitHub issues, forums, or social media) until we have had a chance to address it.
@@ -53,7 +53,7 @@ If you discover a security vulnerability in any OSS United projects, we encourag
 
 ## Disclosure Policy
 
-The OSS United follows a **90-day coordinated disclosure policy**:
+The Broadsage follows a **90-day coordinated disclosure policy**:
 
 - We aim to resolve critical vulnerabilities within 90 days of a report.
 - If more time is needed, we will communicate transparently with the reporter and provide updates on our progress.
@@ -71,7 +71,7 @@ We encourage users and contributors to follow these best practices to enhance se
 
 ## Bug Bounty Program
 
-The OSS United currently does not operate a formal bug bounty program. However, we deeply appreciate the efforts of security researchers and may offer recognition, swag, or other forms of gratitude for responsible disclosures at our discretion.
+The Broadsage currently does not operate a formal bug bounty program. However, we deeply appreciate the efforts of security researchers and may offer recognition, swag, or other forms of gratitude for responsible disclosures at our discretion.
 
 ## Contact Information
 
@@ -84,4 +84,4 @@ For general inquiries or non-security issues, please use our main contact channe
 
 We would like to thank the researchers and contributors who have helped improve the security of our projects.
 
-Thank you for helping us keep the OSS United projects secure!
+Thank you for helping us keep the Opensource projects secure!

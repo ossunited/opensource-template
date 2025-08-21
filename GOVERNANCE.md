@@ -58,7 +58,7 @@ The project uses the following communication channels:
 
 ## License
 
-Copyright (c) Broadsage Corporation. All rights reserved.
+Copyright © 2025 Broadsage. The term "Broadsage" refers to Broadsage Corporation. and/or its subsidiaries.
 
 The project is licensed under the [Apache-2.0](./LICENSE). All contributions to the project must be made under this license.
 

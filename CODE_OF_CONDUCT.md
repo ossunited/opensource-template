@@ -6,6 +6,8 @@ SPDX-License-Identifier: Apache-2.0
 
 # Contributor Covenant Code of Conduct
 
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-2.1-4baaaa.svg?style=flat)](CODE_OF_CONDUCT.md)
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
