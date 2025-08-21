@@ -27,12 +27,6 @@ jobs:
     permissions:
       contents: read
     uses: ./.github/workflows/license.yml
-  lint:
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-    uses: ./.github/workflows/lint.yml
   lintpubliccode:
     permissions:
       contents: read

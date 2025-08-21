@@ -4,12 +4,11 @@
 
 ---
 name: MegaLinter
-on: [workflow_call] # yamllint disable-line rule:truthy
-
-
-permissions:
-  contents: read
-  security-events: write
+on:
+  # Trigger mega-linter at every push. Action will also be visible from Pull Requests to main
+  push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
+  pull_request:
+    branches: [main]
 
 env: # Comment env block if you don't want to apply fixes
   # Apply linter fixes configuration
@@ -18,11 +17,20 @@ env: # Comment env block if you don't want to apply fixes
   APPLY_FIXES_MODE: commit # If APPLY_FIXES is used, defines if the fixes are directly committed (commit) or posted in a PR (pull_request)
   MEGALINTER_CONFIG: /config/mega-linter.yml
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+  
 jobs:
   megalinter:
     name: MegaLinter
     runs-on: ubuntu-latest
-    if: ${{ (github.event_name == 'pull_request') && (github.actor != 'dependabot[bot]') }}
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push, comment issues & post new PR
+      # Remove the ones you do not need
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       # Git Checkout
       - name: Checkout Code
