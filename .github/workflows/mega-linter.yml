@@ -44,8 +44,6 @@ jobs:
         # You can override MegaLinter flavor used to have faster performances
         # More info at https://megalinter.io/flavors/
         uses: oxsecurity/megalinter@v8
-        with:
-          base: ${{ startsWith(github.ref, 'refs/heads/feature/') && 'main' || 'devel' }}
         env:
           # All available variables are described in documentation
           # https://megalinter.io/configuration/
@@ -70,6 +68,7 @@ jobs:
         if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository)
         uses: peter-evans/create-pull-request@v6
         with:
+          base: ${{ startsWith(github.ref, 'refs/heads/feature/') && 'main' || 'devel' }}
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           commit-message: "[MegaLinter] Apply linters automatic fixes"
           title: "[MegaLinter] Apply linters automatic fixes"
