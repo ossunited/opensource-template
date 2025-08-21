@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 ---
-name: Governance Workflow
+name: Compliance Workflow
 
 on: # yamllint disable-line rule:truthy
   push:
@@ -17,7 +17,7 @@ on: # yamllint disable-line rule:truthy
 
 permissions:
   contents: read
-  
+
 jobs:
   commit:
     permissions:
