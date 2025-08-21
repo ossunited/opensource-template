@@ -4,7 +4,11 @@
 
 ---
 name: Lint Public Code MetaData
-on: [workflow_call] # yamllint disable-line rule:truthy
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
@@ -13,7 +17,6 @@ jobs:
   publiccode_validation:
     name: publiccode validation
     runs-on: ubuntu-latest
-    if: ${{ (github.event_name == 'pull_request') && (github.actor != 'dependabot[bot]') }}
     steps:
       - name: Harden GitHub runner
         uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 #v2.13.0
