@@ -21,7 +21,10 @@ jobs:
     name: MegaLinter
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+       contents: write
+       issues: write
+       pull-requests: write
+       security-events: write
     steps:
       # Git Checkout
       - name: Checkout Code
