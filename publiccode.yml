@@ -20,7 +20,7 @@ description:
 
       **You **_**are supposed**_** to adjust the contents and suggestions to
       suit your project needs.          **
-    shortDescription: "https://github.com/ossunited/opensource-template"
+    shortDescription: "https://github.com/broadsage/opensource-template"
 developmentStatus: development
 legal:
   license: Apache-2.0
@@ -38,5 +38,5 @@ platforms:
 releaseDate: "2025-06-27"
 softwareType: standalone/other
 softwareVersion: dev
-url: "https://github.com/ossunited/opensource-template.git"
-roadmap: "https://github.com/ossunited/opensource-template#roadmap"
+url: "https://github.com/broadsage/opensource-template.git"
+roadmap: "https://github.com/broadsage/opensource-template#roadmap"
