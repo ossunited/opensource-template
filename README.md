@@ -14,7 +14,6 @@ SPDX-License-Identifier: Apache-2.0
 This repository provides a solid foundation for launching, scaling, and governing open-source projects. It includes best practices, essential files, and guidelines to ensure compliance, security, and operational excellence for projects of any size.
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/broadsage/opensource-template/workflow.yml?label=Compliance&logo=github&style=flat)](https://github.com/broadsage/opensource-template/actions/workflows/workflow.yml)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat&logo=git)](https://conventionalcommits.org)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
 [![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/broadsage/opensource-template?label=OpenSSF%20Scorecard&style=flat&logo=ossf)](https://securityscorecards.dev/viewer/?uri=github.com/broadsage/opensource-template)
 [![GitHub Release](https://img.shields.io/github/v/release/broadsage/opensource-template?label=Release&style=flat&logo=github)](https://github.com/broadsage/opensource-template/releases)
@@ -67,7 +66,7 @@ Organize your project as follows for maximum clarity and maintainability:
 ## 🛡️ Compliance & Security
 
 - **REUSE Compliance:** All files are REUSE-compliant for license clarity.
-- **Security Policy:** See `SECURITY.md` for vulnerability reporting and response process.
+- **Security Policy:** See [SECURITY.md](SECURITY.md) for vulnerability reporting and response process.
 - **Automated Linting:** Code quality and security checks via MegaLinter and CI/CD.
 
 ## 🤝 Community & Contribution
