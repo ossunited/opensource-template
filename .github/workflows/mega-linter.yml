@@ -44,6 +44,8 @@ jobs:
         # You can override MegaLinter flavor used to have faster performances
         # More info at https://megalinter.io/flavors/
         uses: oxsecurity/megalinter@v8
+        with:
+          base: ${{ startsWith(github.ref, 'refs/heads/feature/') && 'main' || 'devel' }}
         env:
           # All available variables are described in documentation
           # https://megalinter.io/configuration/
