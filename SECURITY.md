@@ -14,13 +14,13 @@ At the OSS United, we are committed to ensuring the security and integrity of ou
 
 We provide security updates for the following versions of our projects:
 
-| Project Name       | Version        | Supported Until       |
-|--------------------|----------------|-----------------------|
-| Core        | 2.x            | Ongoing               |
-| OpenCore        | 1.x            | End of Life: 2025-12-31 |
-| OpenAPI         | 3.x            | Ongoing               |
-| OpenAPI         | 2.x            | End of Life: 2024-06-30 |
-| OpenSuite  | Latest Release | Ongoing               |
+| Project Name | Version        | Supported Until         |
+|--------------|----------------|-------------------------|
+| Core         | 2.x            | Ongoing                 |
+| OpenCore     | 1.x            | End of Life: 2025-12-31 |
+| OpenAPI      | 3.x            | Ongoing                 |
+| OpenAPI      | 2.x            | End of Life: 2024-06-30 |
+| OpenSuite    | Latest Release | Ongoing                 |
 
 Please ensure you are using a supported version to receive security updates. We recommend upgrading to the latest stable release as soon as possible.
 
