@@ -3,11 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 ---
-
 name: Conform DCO (--Sign-off)
 on:
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
 

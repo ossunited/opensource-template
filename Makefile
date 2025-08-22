@@ -1,24 +1,23 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage <opensource@broadsage.com>
+# SPDX-License-Identifier: Apache-2.0
+
 ## Catch-all for unknown targets
 .DEFAULT:
 	@echo "Error: Target '$@' not found." >&2
 	@$(MAKE) help
-# SPDX-FileCopyrightText: Copyright (c) 2025 Broadsage <opensource@broadsage.com>
-# SPDX-License-Identifier: Apache-2.0
 
-.PHONY: help check-docker check-podman check-containers lint publiccodelint
 # Makefile to check Docker and Podman installation and provide help
-
-.PHONY: help check-docker check-podman check-containers
+.PHONY: help check-docker check-podman check-containers check-compliance
 
 help:
 	@echo "Usage: make <target>"
 	@echo ""
 	@echo "Targets:"
-	@echo "  help             Show this help message with advanced details."
-	@echo "  check-docker     Check if Docker is installed and available in PATH."
-	@echo "  check-podman     Check if Podman is installed and available in PATH."
-	@echo "  check-containers Check if both Docker and Podman are installed."
-	@echo "  code-compliance  Run code quality checks using MegaLinter, PublicCodeLint, FSFE REUSE Compliance, and Conform."
+	@echo "  help              Show this help message with advanced details."
+	@echo "  check-docker      Check if Docker is installed and available in PATH."
+	@echo "  check-podman      Check if Podman is installed and available in PATH."
+	@echo "  check-containers  Check if both Docker and Podman are installed."
+	@echo "  check-compliance  Run code quality & compliance checks using MegaLinter, PublicCodeLint, FSFE REUSE Compliance, and Conform."
 	@echo ""
 	@echo "Advanced Usage:"
 	@echo "  make check-containers # Checks both Docker and Podman installed."
@@ -65,5 +64,5 @@ check-containers:
 	$(MAKE) check-docker
 	$(MAKE) check-podman
 
-code-compliance:
+check-compliance:
 	@bash scripts/compliance.sh

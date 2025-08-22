@@ -5,8 +5,6 @@
 ---
 name: Lint Public Code MetaData
 on:
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
 
