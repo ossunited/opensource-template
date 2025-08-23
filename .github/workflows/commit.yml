@@ -29,6 +29,6 @@ jobs:
         run: git fetch origin main:main
 
       - name: Conform Action
-        uses: siderolabs/conform@v0.1.0-alpha.29
+        uses: siderolabs/conform@a316d3d13e82ac5f8d2eae42a734f8a885cddb15 # v0.1.0-alpha.29
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
