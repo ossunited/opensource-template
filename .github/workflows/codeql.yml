@@ -28,7 +28,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'bash' ]
+        language: [ 'javascript' ]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
