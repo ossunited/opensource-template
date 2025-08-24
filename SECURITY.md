@@ -85,3 +85,13 @@ For general inquiries or non-security issues, please use our main contact channe
 We would like to thank the researchers and contributors who have helped improve the security of our projects.
 
 Thank you for helping us keep the Opensource projects secure!
+
+## Public Archive of Security Reports and Responses
+
+In accordance with OpenSSF best practices, this project maintains a publicly available archive of security reports and our responses. This archive is intended to provide transparency and allow for later searching and review of past incidents and resolutions.
+
+- The archive is available at [`security-reports/`](./security-reports/).
+- Each report includes the date, description, investigation steps, resolution, and date of resolution.
+- No sensitive or private information is included in the public archive.
+
+For more details, see the [README in the security-reports directory](./security-reports/README.md).
