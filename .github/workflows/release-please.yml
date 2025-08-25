@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pull-requests: write
 
 jobs:
@@ -29,7 +30,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
-          
+
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
