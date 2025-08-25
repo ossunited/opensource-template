@@ -22,6 +22,6 @@ jobs:
           egress-policy: audit
 
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 #v4.3.0
-      - uses: italia/publiccode-parser-action@eaeb24d1701fd5f398649f4905c0f5bcc32ba46d # v1.3.1
+      - uses: italia/publiccode-parser-action@33aa2fbd2724e6033a4fc6711fa30a53982daed0 # v1.3.2
         with:
           publiccode: "publiccode.yml"
