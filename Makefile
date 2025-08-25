@@ -66,3 +66,4 @@ check-containers:
 
 check-compliance:
 	@bash scripts/compliance.sh
+	@echo "All checks completed. Review output for any warnings or failures."

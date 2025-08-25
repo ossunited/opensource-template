@@ -14,6 +14,8 @@ SPDX-License-Identifier: Apache-2.0
 This repository provides a solid foundation for launching, scaling, and governing open-source projects. It includes best practices, essential files, and guidelines to ensure compliance, security, and operational excellence for projects of any size.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0)
+[![CodeQL](https://github.com/broadsage/opensource-template/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/broadsage/opensource-template/actions/workflows/codeql-analysis.yml)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11079/badge)](https://www.bestpractices.dev/projects/11079)
 [![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/broadsage/opensource-template?label=OpenSSF%20Scorecard&style=flat&logo=ossf)](https://securityscorecards.dev/viewer/?uri=github.com/broadsage/opensource-template)
 [![GitHub Release](https://img.shields.io/github/v/release/broadsage/opensource-template?label=Release&style=flat&logo=github)](https://github.com/broadsage/opensource-template/releases)
 [![Broadsage on LinkedIn](https://img.shields.io/badge/LinkedIn-Broadsage-blue?style=flat&logo=linkedin)](https://www.linkedin.com/company/broadsage)
